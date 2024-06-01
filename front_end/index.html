@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Recommender</title>
+<!--==================== CSS ====================-->
+<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="form-group">
+        <label for="userInput">Type or select text:</label>
+        <input type="text" id="userInput" placeholder="Type or select...">
+        <select id="recommendation">
+            <option value="Inception">Inception</option>
+            <option value="The Dark Knight">The Dark Knight</option>
+            <option value="Interstellar">Interstellar</option>
+            <option value="Pulp Fiction">Pulp Fiction</option>
+        </select>
+    </div>
+    <div id="movieList" class="movie-list"></div>
+</div>
+
+<!--==================== MAIN JS ====================-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
