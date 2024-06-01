@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'MovieRecommenderApi.urls'
+ROOT_URLCONF = 'drf_movie_recommender.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'MovieRecommenderApi.wsgi.application'
+WSGI_APPLICATION = 'drf_movie_recommender.wsgi.application'
 
 
 # Database
